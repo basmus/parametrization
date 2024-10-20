@@ -1,0 +1,11 @@
+# .gitignore
+.vs/
+.vscode/
+bin/
+obj/
+*.dotsettings
+*.dotsettings.user
+tests/Basmus.Parametrization.Benchmarks/artifacts/**/*.log
+tests/Basmus.Parametrization.Benchmarks/artifacts/**/*.html
+tests/Basmus.Parametrization.Benchmarks/artifacts/**/*.csv
+!tests/Basmus.Parametrization.Benchmarks/artifacts/**/*report-github.md
